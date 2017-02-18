@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements Response.Listener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ImageView topImage= (ImageView)findViewById(R.id.topImage);
-        Picasso.with(this).load(IMAGE).fit().into(topImage);
+        Picasso.with(this).load(IMAGE).into(topImage);
         mRVCiudades = (RecyclerView) findViewById(R.id.rv_ciudades);
 
         mLayoutManager = new LinearLayoutManager(this);
