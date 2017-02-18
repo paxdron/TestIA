@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="tvLatitud"><b>Latitud: </b> %1$s</string>
+    <string name="tvLongitud"><b>Longitud: </b> %1$s</string>
+    <string name="tvIdEstado"><b>ID Estado: </b> %02d</string>
+</resources>
